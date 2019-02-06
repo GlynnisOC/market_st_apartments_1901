@@ -10,7 +10,7 @@ class Building
   end
 
   def average_rent
-    @units[0]
+    @units[0][:montly_rent]
     montly_rent.map do |rent|
       rent.count
     end
